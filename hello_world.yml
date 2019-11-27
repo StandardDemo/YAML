@@ -3,6 +3,6 @@
   tasks:
     - name: Copy
       win_copy:
-        src: "C:\DeployStage\DevOpsDemoApplication.war"
-        dest: "C:\DeployStage"
+        src: C:\DeployStage\DevOpsDemoApplication.war
+        dest: C:\
 
