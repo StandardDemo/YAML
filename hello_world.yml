@@ -4,5 +4,5 @@
     - name: Copy
       win_copy:
         src: "C:\DeployStage\DevOpsDemoApplication.war"
-        dest: "C:\"
+        dest: "C:\DeployStage"
 
