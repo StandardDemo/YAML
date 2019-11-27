@@ -1,7 +1,8 @@
-- name: Hello World Sample
-  hosts: all
+- name: Sample
+  hosts: Sol-Devops
   tasks:
-    - name: Hello Message
-      debug:
-        msg: "Hello World!"
+    - name: Copy
+      win_copy:
+        src: "C:\DeployStage\DevOpsDemoApplication.war"
+        dest: "C:\"
 
