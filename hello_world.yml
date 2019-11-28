@@ -1,8 +1,4 @@
 - name: Test
-  hosts: localhost
-  tasks:
-   name: Copy a single file
    win_copy:
     src: \\192.168.11.9\DeployStage
     dest: \\10.10.1.150\Users\sm281\Desktop\Deploy
-
