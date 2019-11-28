@@ -1,4 +1,4 @@
 - name: Test
    win_copy:
-    src: \\192.168.11.9\DeployStage
-    dest: \\10.10.1.150\Users\sm281\Desktop\Deploy
+    src: C:\Users\santanuk.IN\Desktop\Accounts\WorldBank
+    dest: C:\Users\santanuk.IN\Desktop\
