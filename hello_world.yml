@@ -1,5 +1,5 @@
 - name: Test
-  hosts: 192.168.11.9
+  hosts: localhost
   tasks:
    name: Copy a single file
    win_copy:
